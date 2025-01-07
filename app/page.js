@@ -1,11 +1,9 @@
-import Image from "next/image";
+import Header from './components/Header';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between py-24 px-12">
-      <div>
-        hello world
-      </div>
+    <main className='max-w-full mx-auto mt-4 sm:mt-10 lg:mt-20 lg:px-10 xl:px-48'>
+      <div><Header /></div>
     </main>
   );
 }
